@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+  }
+  
+  .search {
+    position: top;
+    width: 500px;
+    padding: 70px 0;
+    margin: auto;
+  }
+  
+  .image {
+    height: auto;
+    width: auto;
+    padding: 20px;
+  }
+  
+  .round {
+    width: 490px;
+    border-radius: 20px;
+    border: 1px solid #b1b1b1;
+    padding: 10px 5px 10px 15px;
+    font-size: 16px;
+    outline-width: 0px;
+  }
+  .button {
+    background-color: #ececec;
+    border: none;
+    color: #595959;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 3px;
+  }
