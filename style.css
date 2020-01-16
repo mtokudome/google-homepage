@@ -43,13 +43,11 @@ body {
   padding: 70px 0;
   margin: auto;
 }
-
 .image {
   height: auto;
   width: auto;
   padding: 20px;
 }
-
 .round {
   width: 490px;
   border-radius: 20px;
