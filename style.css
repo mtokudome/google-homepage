@@ -1,36 +1,95 @@
+
+.ultop {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.lileft {
+  display: block;
+  float: left;
+  padding: 8px;
+}
+.liright {
+  display: inline;
+  float: right;
+  padding: 8px;
+}
+.liblock {
+  display: inline-block;
+  float: right;
+  padding: 8px;
+  width: 70px;
+  height: 20px;
+  background: #3399FF;
+}
 body {
-    text-align: center;
-  }
-  
-  .search {
-    position: top;
-    width: 500px;
-    padding: 70px 0;
-    margin: auto;
-  }
-  
-  .image {
-    height: auto;
-    width: auto;
-    padding: 20px;
-  }
-  
-  .round {
-    width: 490px;
-    border-radius: 20px;
-    border: 1px solid #b1b1b1;
-    padding: 10px 5px 10px 15px;
-    font-size: 16px;
-    outline-width: 0px;
-  }
-  .button {
-    background-color: #ececec;
-    border: none;
-    color: #595959;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 3px;
-  }
+  text-align: center;
+}
+.a1 {
+  color: #404040;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 14px;
+}
+.a2 {
+  color: white;
+  text-decoration: none;
+    font-family: Arial;
+  font-size: 14px;
+}
+.search {
+  position: top;
+  width: 500px;
+  padding: 70px 0;
+  margin: auto;
+}
+
+.image {
+  height: auto;
+  width: auto;
+  padding: 20px;
+}
+
+.round {
+  width: 490px;
+  border-radius: 20px;
+  border: 1px solid #b1b1b1;
+  padding: 10px 5px 10px 15px;
+  font-size: 16px;
+  outline-width: 0px;
+}
+.button {
+  background-color: #ececec;
+  border: none;
+  color: #595959;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.bar {
+  width: 100%; 
+  height: 38px; 
+  background: #DDD;
+}
+.ulbottom {
+  position: float;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.libottomleft {
+  display: block;
+  float: left;
+  padding: 10px;
+}
+.libottomright {
+  display: inline;
+  float: right;
+  padding: 10px;
+}
